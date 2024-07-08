@@ -1,0 +1,28 @@
+{
+  "name": "appsync-website-mutation",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/core": "^17.3.0",
+    "@angular/common": "^17.3.0",
+    "@angular/platform-browser": "^17.3.0",
+    "@angular/forms": "^17.3.0",
+    "@apollo/client": "^3.10.5",
+    "apollo-angular": "^7.0.2",
+    "graphql": "^16.8.2",
+    "graphql-ws": "^5.16.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.3.3",
+    "@angular/compiler-cli": "^17.3.0",
+    "typescript": "~5.4.2"
+  }
+}

@@ -1,0 +1,123 @@
+/* Insert Form Styles */
+.insert-form, .table-results {
+  margin: 25px 0;
+  font-size: 1em;
+  font-family: 'Arial', sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+.insert-form h2, .table-results h2 {
+  background-color: #0073e6;
+  color: #ffffff;
+  padding: 12px 15px;
+  margin: -20px -20px 20px -20px;
+  border-radius: 4px 4px 0 0;
+}
+
+.insert-form .form-fields {
+  display: flex;
+  justify-content: space-between;
+}
+
+.insert-form .form-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.insert-form .form-group:last-child {
+  margin-right: 0;
+}
+
+.insert-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.insert-form input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.insert-form button {
+  background-color: #0073e6;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.insert-form button:hover {
+  background-color: #005bb5;
+}
+
+/* Table Styles */
+.styled-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 25px 0;
+  font-size: 1em;
+  font-family: 'Arial', sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #0073e6;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #0073e6;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #0073e6;
+}
+
+.styled-table button {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+:disabled{
+  background-color: lightgrey;
+}
